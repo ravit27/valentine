@@ -69,10 +69,51 @@ no_button.addEventListener('click', () => {
     // Change banner source
     let banner = document.getElementById('banner');
     if (clicks === 0) {
-        banner.src = "public/images/no.gif";
-        refreshBanner();
-    } else if (clicks === 1) {
         banner.src = "public/images/2.gif";
+        refreshBanner();
+    }
+    if (clicks === 1) {
+        banner.src = "public/images/3.gif";
+        refreshBanner();
+    }
+    if (clicks === 2) {
+        banner.src = "public/images/4.gif";
+        refreshBanner();
+    }
+    if (clicks === 3) {
+        banner.src = "public/images/5.gif";
+        refreshBanner();
+    }
+    if (clicks === 4) {
+        banner.src = "public/images/6.gif";
+        refreshBanner();
+    }
+    if (clicks === 5) {
+        banner.src = "public/images/7.gif";
+        refreshBanner();
+    }
+    if (clicks === 6) {
+        banner.src = "public/images/8.gif";
+        refreshBanner();
+    }
+    if (clicks === 7) {
+        banner.src = "public/images/9.gif";
+        refreshBanner();
+    }
+    if (clicks === 8) {
+        banner.src = "public/images/10.gif";
+        refreshBanner();
+    }
+    if (clicks === 9) {
+        banner.src = "public/images/11.gif";
+        refreshBanner();
+    }
+    if (clicks === 10) {
+        banner.src = "public/images/12.gif";
+        refreshBanner();
+    }
+    if (clicks === 11) {
+        banner.src = "public/images/13.gif";
         refreshBanner();
     }
     clicks++;
