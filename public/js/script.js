@@ -71,6 +71,9 @@ no_button.addEventListener('click', () => {
     if (clicks === 0) {
         banner.src = "public/images/no.gif";
         refreshBanner();
+    } else if (clicks === 1) {
+        banner.src = "public/images/2.gif";
+        refreshBanner();
     }
     clicks++;
     // increase button height and width gradually to 250px
